@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83266E651C5F29E30025DB66 /* ITRDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83266E621C5F29E30025DB66 /* ITRDetailViewController.m */; };
+		83266E661C5F29E30025DB66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83266E641C5F29E30025DB66 /* ViewController.m */; };
+		A6C941971C5C5E0B009E4A8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C941961C5C5E0B009E4A8F /* main.m */; };
+		A6C9419A1C5C5E0B009E4A8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6C941991C5C5E0B009E4A8F /* AppDelegate.m */; };
+		A6C941A01C5C5E0B009E4A8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6C9419E1C5C5E0B009E4A8F /* Main.storyboard */; };
+		A6C941A21C5C5E0B009E4A8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6C941A11C5C5E0B009E4A8F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83266E611C5F29E30025DB66 /* ITRDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ITRDetailViewController.h; sourceTree = "<group>"; };
+		83266E621C5F29E30025DB66 /* ITRDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ITRDetailViewController.m; sourceTree = "<group>"; };
+		83266E631C5F29E30025DB66 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83266E641C5F29E30025DB66 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83266E691C607A810025DB66 /* ITRApplePay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ITRApplePay.entitlements; sourceTree = "<group>"; };
+		A6C941921C5C5E0B009E4A8F /* ITRApplePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITRApplePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6C941961C5C5E0B009E4A8F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6C941981C5C5E0B009E4A8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6C941991C5C5E0B009E4A8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6C9419F1C5C5E0B009E4A8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6C941A11C5C5E0B009E4A8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6C941A61C5C5E0B009E4A8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6C9418F1C5C5E0B009E4A8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83266E601C5F29E30025DB66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				83266E611C5F29E30025DB66 /* ITRDetailViewController.h */,
+				83266E621C5F29E30025DB66 /* ITRDetailViewController.m */,
+				83266E631C5F29E30025DB66 /* ViewController.h */,
+				83266E641C5F29E30025DB66 /* ViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A6C941891C5C5E0B009E4A8F = {
+			isa = PBXGroup;
+			children = (
+				A6C941941C5C5E0B009E4A8F /* ITRApplePay */,
+				A6C941931C5C5E0B009E4A8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6C941931C5C5E0B009E4A8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6C941921C5C5E0B009E4A8F /* ITRApplePay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6C941941C5C5E0B009E4A8F /* ITRApplePay */ = {
+			isa = PBXGroup;
+			children = (
+				83266E691C607A810025DB66 /* ITRApplePay.entitlements */,
+				83266E601C5F29E30025DB66 /* Controller */,
+				A6C941981C5C5E0B009E4A8F /* AppDelegate.h */,
+				A6C941991C5C5E0B009E4A8F /* AppDelegate.m */,
+				A6C9419E1C5C5E0B009E4A8F /* Main.storyboard */,
+				A6C941A11C5C5E0B009E4A8F /* Assets.xcassets */,
+				A6C941A61C5C5E0B009E4A8F /* Info.plist */,
+				A6C941951C5C5E0B009E4A8F /* Supporting Files */,
+			);
+			path = ITRApplePay;
+			sourceTree = "<group>";
+		};
+		A6C941951C5C5E0B009E4A8F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C941961C5C5E0B009E4A8F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6C941911C5C5E0B009E4A8F /* ITRApplePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6C941A91C5C5E0B009E4A8F /* Build configuration list for PBXNativeTarget "ITRApplePay" */;
+			buildPhases = (
+				A6C9418E1C5C5E0B009E4A8F /* Sources */,
+				A6C9418F1C5C5E0B009E4A8F /* Frameworks */,
+				A6C941901C5C5E0B009E4A8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ITRApplePay;
+			productName = ITRApplePay;
+			productReference = A6C941921C5C5E0B009E4A8F /* ITRApplePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6C9418A1C5C5E0B009E4A8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ITechRoof;
+				TargetAttributes = {
+					A6C941911C5C5E0B009E4A8F = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 5U487867ZU;
+						SystemCapabilities = {
+							com.apple.OMC = {
+								enabled = 1;
+							};
+							com.apple.Wallet = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A6C9418D1C5C5E0B009E4A8F /* Build configuration list for PBXProject "ITRApplePay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6C941891C5C5E0B009E4A8F;
+			productRefGroup = A6C941931C5C5E0B009E4A8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6C941911C5C5E0B009E4A8F /* ITRApplePay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6C941901C5C5E0B009E4A8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C941A21C5C5E0B009E4A8F /* Assets.xcassets in Resources */,
+				A6C941A01C5C5E0B009E4A8F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6C9418E1C5C5E0B009E4A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83266E651C5F29E30025DB66 /* ITRDetailViewController.m in Sources */,
+				A6C9419A1C5C5E0B009E4A8F /* AppDelegate.m in Sources */,
+				83266E661C5F29E30025DB66 /* ViewController.m in Sources */,
+				A6C941971C5C5E0B009E4A8F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6C9419E1C5C5E0B009E4A8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6C9419F1C5C5E0B009E4A8F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6C941A71C5C5E0B009E4A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6C941A81C5C5E0B009E4A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6C941AA1C5C5E0B009E4A8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ITRApplePay/ITRApplePay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ITRApplePay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ApplePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		A6C941AB1C5C5E0B009E4A8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ITRApplePay/ITRApplePay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = ITRApplePay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ITR.ApplePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6C9418D1C5C5E0B009E4A8F /* Build configuration list for PBXProject "ITRApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C941A71C5C5E0B009E4A8F /* Debug */,
+				A6C941A81C5C5E0B009E4A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6C941A91C5C5E0B009E4A8F /* Build configuration list for PBXNativeTarget "ITRApplePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6C941AA1C5C5E0B009E4A8F /* Debug */,
+				A6C941AB1C5C5E0B009E4A8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6C9418A1C5C5E0B009E4A8F /* Project object */;
+}
