@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/myPaymentEngine', methods=['POST'])
 def myPaymentEngine():
 
-    stripe.api_key = "sk_test_ZAthZzlHJWFyPAl9DNRVf3eV"
+    stripe.api_key = "YOUR_TEST_SECRET_KEY"
 
     json = request.json
 

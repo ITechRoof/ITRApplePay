@@ -65,7 +65,7 @@
                        didAuthorizePayment:(PKPayment *)payment
                                 completion:(void (^)(PKPaymentAuthorizationStatus status))completion {
     
-    [Stripe setDefaultPublishableKey:@"pk_test_1Zmxn97Mr21Au6BF1uON6NoE"];
+    [Stripe setDefaultPublishableKey:@"YOUR_TEST_PUBLISHABLE_KEY"];
     
     [[STPAPIClient sharedClient] createTokenWithPayment:payment completion:^(STPToken *token, NSError *error) {
         
